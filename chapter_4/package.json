@@ -1,5 +1,5 @@
 {
-  "name": "chapter_3",
+  "name": "chapter_4",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -11,10 +11,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "A full stack application that uses a Nodejs backend, a SQLite database and jwt authentication",
+  "description": "A duckerized full stack application that uses a Nodejs backend, a postgressSQL  database, a Prisma ORM and jwt authentication",
   "dependencies": {
+    "@prisma/client": "^6.2.1",
     "bcryptjs": "^2.4.3",
     "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "prisma": "^6.2.1"
   }
 }
